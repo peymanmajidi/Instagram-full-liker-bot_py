@@ -2,7 +2,7 @@ import time
 from password import my_password
 from selenium import webdriver
 
-chrome = webdriver.Chrome("D:\Peyman\Desktop\chromedriver.exe")
+chrome = webdriver.Chrome("./chromedriver.exe")
 chrome.get('https://www.instagram.com/')
 time.sleep(2)
 
