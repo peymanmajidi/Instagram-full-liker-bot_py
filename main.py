@@ -3,8 +3,8 @@ from selenium import webdriver
 import time
 
 # chrome drive for version 81.0
-# if your google chrome version is diffrent, download your capable version from https://chromedriver.chromium.org/
-chrome = webdriver.Chrome("./chromedriver.exe") 
+# if your google chrome version is diffrent
+chrome = webdriver.Chrome("./chromedriver.exe") # Download your capable version from https://chromedriver.chromium.org/
 chrome.get('https://www.instagram.com/')
 time.sleep(2)
 
